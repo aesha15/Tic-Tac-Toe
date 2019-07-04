@@ -188,7 +188,6 @@ def check_diag():
 
 	return winner
 
-
 def print_winner():
 	if(winner == "X" or winner =="O"):
 		print(winner + "Wins!")
@@ -196,7 +195,6 @@ def print_winner():
 	else:
 		print("Tie!")
 
-	exit(0)
-	
+	exit(0)	
 
 play_game()
